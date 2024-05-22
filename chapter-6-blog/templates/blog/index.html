@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}Home{% endblock pagetitle %}
+
+{% block content %}
+    
+    {% for post in post_list %}
+        <div class="post-entry">
+            <h2><a href="#">{{post.title}}</a></h2>
+            <p>{{post.blog_content}}</p>
+        </div>
+    {% endfor %}
+        
+
+{% endblock content %}
