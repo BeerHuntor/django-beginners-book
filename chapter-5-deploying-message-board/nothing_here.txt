@@ -1,0 +1,1 @@
+The chapter was solely focused on deployment of the previous chapter and app, this is only here as a means to give consisitency
